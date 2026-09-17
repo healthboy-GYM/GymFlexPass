@@ -1,0 +1,57 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // 관리자 판별: 아래 이메일 목록에 있는 로그인 사용자만 관리자.
+    // ★ 배포 전에 실제 관리자 로그인 이메일로 바꾸세요. (여러 명이면 콤마로 추가)
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.token.email in [
+          'healthboygym@healthboygym.com'
+        ];
+    }
+
+    // Allow anyone to create a consultation request, but only authenticated
+    // users (admins) to read or update them. Deletion is not allowed from the client.
+    match /consultations/{consultationId} {
+      allow create: if true;
+      allow read, update: if request.auth != null;
+      allow delete: if false;
+    }
+
+    // Allow anyone to create a registration request for their main gym,
+    // but only authenticated users (admins) to read or update them.
+    match /registrations/{registrationId} {
+      allow create: if true;
+      allow read, update: if request.auth != null;
+      allow delete: if false;
+    }
+
+    // Allow anyone to create a coupon usage document, but only authenticated
+    // users (admins) can read, update or delete it.
+    match /usedCoupons/{couponId} {
+      allow create: if true;
+      allow list, read, update, delete: if request.auth != null;
+    }
+
+    // 지점 정보: 공개 사이트에 표시하므로 누구나 읽기,
+    // 추가/수정/삭제는 관리자만 가능.
+    match /gyms/{gymId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // 이벤트(프로모션) 페이지: 누구나 읽기, 관리자만 생성/수정/삭제.
+    match /events/{eventId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // 사이트 설정(상단 배너/공지 등): 누구나 읽기, 관리자만 쓰기.
+    match /settings/{docId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}

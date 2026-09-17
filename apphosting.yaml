@@ -1,0 +1,26 @@
+# Settings to manage and configure a Firebase App Hosting backend.
+# https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 1
+
+# NEXT_PUBLIC_* 변수는 클라이언트 번들에 인라인되려면 빌드 시점에 값이 있어야 합니다.
+# 따라서 availability 에 BUILD 를 반드시 포함해야 합니다. (RUNTIME 은 서버 런타임용)
+env:
+  - variable: NEXT_PUBLIC_NAVER_CLIENT_ID
+    value: b2prbr0rbm
+    availability:
+      - BUILD
+      - RUNTIME
+
+  # 주소 → 좌표 지오코딩 (서버 전용, 클라이언트에 노출 안 됨)
+  - variable: NAVER_GEOCODE_CLIENT_ID
+    value: b2prbr0rbm
+    availability:
+      - RUNTIME
+  - variable: NAVER_GEOCODE_CLIENT_SECRET
+    secret: naver-geocode-secret
+    availability:
+      - RUNTIME
