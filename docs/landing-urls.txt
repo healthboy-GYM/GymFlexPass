@@ -1,0 +1,93 @@
+헬보올패스 랜딩페이지 URL 목록  (71개 지점 + 10개 지역)
+
+
+■ 서울특별시  → https://healthboypass.co.kr/area/seoul
+   가락점          https://healthboypass.co.kr/branch/garak
+   가산역점         https://healthboypass.co.kr/branch/gasanyeok
+   가양역점         https://healthboypass.co.kr/branch/gayangyeok
+   강남고속터미널점     https://healthboypass.co.kr/branch/gangnamgosokteomineol
+   강남역점         https://healthboypass.co.kr/branch/gangnamyeok
+   건대스타시티몰점     https://healthboypass.co.kr/branch/geondaeseutasitimol
+   당산역점         https://healthboypass.co.kr/branch/dangsanyeok
+   문래역점         https://healthboypass.co.kr/branch/munraeyeok
+   문정역점         https://healthboypass.co.kr/branch/munjeongyeok
+   불광점          https://healthboypass.co.kr/branch/bulgwang
+   상암MBC점       https://healthboypass.co.kr/branch/sangammbc
+   서울시청점        https://healthboypass.co.kr/branch/seoulsicheong
+   선릉점          https://healthboypass.co.kr/branch/seonreung
+   신논현점         https://healthboypass.co.kr/branch/sinnonhyeon
+   신촌점          https://healthboypass.co.kr/branch/sinchon
+   양천향교역점       https://healthboypass.co.kr/branch/yangcheonhyanggyoyeok
+   여의도역점        https://healthboypass.co.kr/branch/yeouidoyeok
+   여의도점         https://healthboypass.co.kr/branch/yeouido
+   영등포점         https://healthboypass.co.kr/branch/yeongdeungpo
+   을지로점         https://healthboypass.co.kr/branch/euljiro
+   잠실점          https://healthboypass.co.kr/branch/jamsil
+   장안점          https://healthboypass.co.kr/branch/jangan
+   학동역점         https://healthboypass.co.kr/branch/hakdongyeok
+   홍대점          https://healthboypass.co.kr/branch/hongdae
+
+■ 경기도  → https://healthboypass.co.kr/area/gyeonggi
+   고양행신점        https://healthboypass.co.kr/branch/goyanghaengsin
+   광교점          https://healthboypass.co.kr/branch/gwanggyo
+   권선점          https://healthboypass.co.kr/branch/gwonseon
+   망포점          https://healthboypass.co.kr/branch/mangpo
+   매탄점          https://healthboypass.co.kr/branch/maetan
+   미금점          https://healthboypass.co.kr/branch/migeum
+   배곧점          https://healthboypass.co.kr/branch/baegot
+   병점점          https://healthboypass.co.kr/branch/byeongjeom
+   부천역점         https://healthboypass.co.kr/branch/bucheonyeok
+   비전점          https://healthboypass.co.kr/branch/bijeon
+   상록수역점        https://healthboypass.co.kr/branch/sangroksuyeok
+   상현점          https://healthboypass.co.kr/branch/sanghyeon
+   수내점          https://healthboypass.co.kr/branch/sunae
+   수지점          https://healthboypass.co.kr/branch/suji
+   안산중앙점        https://healthboypass.co.kr/branch/ansanjungang
+   영통판타지움점      https://healthboypass.co.kr/branch/yeongtongpantajium
+   인계점          https://healthboypass.co.kr/branch/ingye
+   일산주엽점        https://healthboypass.co.kr/branch/ilsanjuyeop
+   정자점          https://healthboypass.co.kr/branch/jeongja
+   죽전점          https://healthboypass.co.kr/branch/jukjeon
+   천천점          https://healthboypass.co.kr/branch/cheoncheon
+   철산점          https://healthboypass.co.kr/branch/cheolsan
+   판교역점         https://healthboypass.co.kr/branch/pangyoyeok
+   평택역점         https://healthboypass.co.kr/branch/pyeongtaekyeok
+
+■ 대전광역시  → https://healthboypass.co.kr/area/daejeon
+   NC대전유성점      https://healthboypass.co.kr/branch/ncdaejeonyuseong
+   가오점          https://healthboypass.co.kr/branch/gao
+   관저점          https://healthboypass.co.kr/branch/gwanjeo
+   대전시청점        https://healthboypass.co.kr/branch/daejeonsicheong
+   대전터미널점       https://healthboypass.co.kr/branch/daejeonteomineol
+   도안점          https://healthboypass.co.kr/branch/doan
+   둔산점          https://healthboypass.co.kr/branch/dunsan
+   목원대점         https://healthboypass.co.kr/branch/mokwondae
+   송촌점          https://healthboypass.co.kr/branch/songchon
+   월평점          https://healthboypass.co.kr/branch/wolpyeong
+   탄방점          https://healthboypass.co.kr/branch/tanbang
+   태평점          https://healthboypass.co.kr/branch/taepyeong
+   테크노밸리점       https://healthboypass.co.kr/branch/tekeunobaelri
+
+■ 부산광역시  → https://healthboypass.co.kr/area/busan
+   당리점          https://healthboypass.co.kr/branch/dangri
+   서면점          https://healthboypass.co.kr/branch/seomyeon
+   하단점          https://healthboypass.co.kr/branch/hadan
+
+■ 충청남도  → https://healthboypass.co.kr/area/chungnam
+   신부점          https://healthboypass.co.kr/branch/sinbu
+   쌍용점          https://healthboypass.co.kr/branch/ssangyong
+
+■ 충청북도  → https://healthboypass.co.kr/area/chungbuk
+   복대점          https://healthboypass.co.kr/branch/bokdae
+
+■ 울산광역시  → https://healthboypass.co.kr/area/ulsan
+   삼산점          https://healthboypass.co.kr/branch/samsan
+
+■ 경상남도  → https://healthboypass.co.kr/area/gyeongnam
+   창원중앙점        https://healthboypass.co.kr/branch/changwonjungang
+
+■ 전라북도  → https://healthboypass.co.kr/area/jeonbuk
+   전주송천점        https://healthboypass.co.kr/branch/jeonjusongcheon
+
+■ 대구광역시  → https://healthboypass.co.kr/area/daegu
+   롯데대구역점       https://healthboypass.co.kr/branch/rotdedaeguyeok
