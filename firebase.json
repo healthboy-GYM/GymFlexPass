@@ -1,0 +1,19 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "apphosting": [
+    {
+      "backendId": "studio",
+      "rootDir": ".",
+      "ignore": [
+        ".*",
+        "node_modules/**",
+        ".next/**",
+        "coverage/**",
+        "*.log"
+      ],
+      "location": "us-central1"
+    }
+  ]
+}
