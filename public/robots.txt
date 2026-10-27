@@ -1,0 +1,85 @@
+# ─────────────────────────────────────────────
+# 기본: 모든 크롤러 허용
+# ─────────────────────────────────────────────
+User-agent: *
+Allow: /
+
+# ─────────────────────────────────────────────
+# AI 검색/어시스턴트 크롤러 명시적 허용
+# (검색 노출 최대화를 위해 전부 Allow)
+# ─────────────────────────────────────────────
+
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google (Gemini / Vertex AI)
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Microsoft / Bing
+User-agent: bingbot
+Allow: /
+
+# Apple (Apple Intelligence)
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta (Meta AI)
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Common Crawl (여러 AI 모델 학습 데이터)
+User-agent: CCBot
+Allow: /
+
+# 기타 AI 검색/어시스턴트
+User-agent: YouBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+Sitemap: https://healthboypass.co.kr/sitemap.xml
